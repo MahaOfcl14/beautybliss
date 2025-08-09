@@ -43,7 +43,7 @@ export function HeroCarousel() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="container mx-auto px-4 text-white"
         >
-          <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight drop-shadow-lg bg-gradient-to-r from-green-300 via-emerald-400 to-green-500 bg-clip-text text-transparent">
+          <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight drop-shadow-lg text-green-900 dark:text-green-300">
             Your one stop solution for Hair related problems
           </h1>
           <p className="mt-4 text-lg md:text-xl max-w-2xl mx-auto drop-shadow-md">
