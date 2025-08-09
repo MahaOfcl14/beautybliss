@@ -41,12 +41,12 @@ export function HeroCarousel() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="container mx-auto px-4 text-white"
+          className="container mx-auto px-4"
         >
           <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight drop-shadow-lg text-green-900 dark:text-green-300">
             Your one stop solution for Hair related problems
           </h1>
-          <p className="mt-4 text-lg md:text-xl max-w-2xl mx-auto drop-shadow-md">
+          <p className="mt-4 text-lg md:text-xl max-w-2xl mx-auto drop-shadow-md text-green-900 dark:text-green-200">
             Discover the secret to naturally beautiful hair with our serum-based oils.
           </p>
           <motion.div
