@@ -17,7 +17,7 @@ export const products: Product[] = [
     slug: 'ancient-secret-hair-oil',
     name: 'Ancient Secret Hair Oil',
     price: 299,
-    imageUrl: 'https://placehold.co/600x600.png',
+    imageUrl: 'https://storage.googleapis.com/aip-dev-source-images/61199a5e-b82c-478a-9a4f-0361329c3131.png',
     usps: ['Deep nourishment', 'Strengthens roots', 'Reduces hair fall', 'Adds natural shine', 'Time-tested formula'],
     description: 'Rediscover timeless hair care wisdom. Our Ancient Secret Hair Oil is crafted to fortify your hair from root to tip.',
     category: "Oils",
