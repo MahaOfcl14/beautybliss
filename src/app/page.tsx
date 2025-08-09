@@ -2,13 +2,13 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { ProductCard } from '@/components/product-card';
-import { HeroCarousel } from '@/components/hero-carousel';
+import { Hero } from '@/components/hero';
 import { products, hotSellingProducts } from '@/lib/data';
 
 export default function Home() {
   return (
     <div className="flex flex-col">
-      <HeroCarousel />
+      <Hero />
       
       <section id="products" className="py-12 md:py-20">
         <div className="container mx-auto px-4">
