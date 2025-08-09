@@ -10,7 +10,7 @@ import { motion } from 'framer-motion';
 
 export function HeroCarousel() {
   return (
-    <section className="relative w-full h-[60vh] md:h-[80vh] overflow-hidden bg-gradient-to-br from-green-100 via-emerald-50 to-white">
+    <section className="relative w-full h-[60vh] md:h-[80vh] overflow-hidden">
       <Carousel 
         className="w-full h-full"
         plugins={[Autoplay({ delay: 5000, stopOnInteraction: true })]}
@@ -28,7 +28,7 @@ export function HeroCarousel() {
                   priority={index === 0}
                   data-ai-hint={image['data-ai-hint']}
                 />
-                <div className="absolute inset-0 bg-black/30" />
+                <div className="absolute inset-0 bg-black/40" />
               </div>
             </CarouselItem>
           ))}
@@ -43,7 +43,7 @@ export function HeroCarousel() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="container mx-auto px-4 text-white"
         >
-          <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight drop-shadow-lg">
+          <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight drop-shadow-lg bg-gradient-to-r from-green-300 via-emerald-400 to-green-500 bg-clip-text text-transparent">
             Your one stop solution for Hair related problems
           </h1>
           <p className="mt-4 text-lg md:text-xl max-w-2xl mx-auto drop-shadow-md">
